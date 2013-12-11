@@ -1237,21 +1237,21 @@ img {
     background-size: 450px 340px;
 }
 #textosClientes1{
-    width: 396px; 
+    width: 90px; 
     height: 85px;
     background-image: url(../images/textosClientes.png);
     background-size: 402px 347px;
     background-position: 5px 0px;
 }
 #textosClientes2{
-    width: 396px; 
+    width: 90px; 
     height: 85px;
     background-image: url(../images/textosClientes.png);
     background-size: 402px 347px;
     background-position: 5px -83px;
 }
 #textosClientes3{
-    width: 396px; 
+    width: 90px; 
     height: 85px;
     background-image: url(../images/textosClientes.png);
     background-size: 402px 347px;
@@ -1259,7 +1259,7 @@ img {
 
 }
 #textosClientes4{
-    width: 396px; 
+    width: 90px; 
     height: 85px;
     background-image: url(../images/textosClientes.png);
     background-size: 402px 347px;
