@@ -1,0 +1,152 @@
+.jaimeV
+{
+    background-image: url('../images/Team-alto-andes/jaime-villarreal.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.jaimeV:hover
+{
+    background-image: url('../images/Team-alto-andes/jaime-villarreal-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#stf
+{
+    overflow: hidden;
+}
+.juanR
+{
+    background-image: url('../images/Team-alto-andes/juan-reyes.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.juanR:hover
+{
+    background-image: url('../images/Team-alto-andes/juan-reyes-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.juanR:hover #juanmas
+{
+    display: block;
+}
+.pabloT
+{
+    background-image: url('../images/Team-alto-andes/pablo-toledo.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.pabloT:hover
+{
+    background-image: url('../images/Team-alto-andes/pablo-toledo-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.nicoF
+{
+    background-image: url('../images/Team-alto-andes/nico-ferrada.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.nicoF:hover
+{
+    background-image: url('../images/Team-alto-andes/nico-ferrada.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.claudioN
+{
+    background-image: url('../images/Team-alto-andes/claudio-nunez.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.claudioN:hover
+{
+    background-image: url('../images/Team-alto-andes/claudio-nunez-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.katR
+{
+    background-image: url('../images/Team-alto-andes/katherine-riveros.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.katR:hover
+{
+    background-image: url('../images/Team-alto-andes/katherine-riveros-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.miguelG
+{
+    background-image: url('../images/Team-alto-andes/miguel-godoy.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.miguelG:hover
+{
+    background-image: url('../images/Team-alto-andes/miguel-godoy-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.michelleF
+{
+    background-image: url('../images/Team-alto-andes/michelle-ferruz.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.michelleF:hover
+{
+    background-image: url('../images/Team-alto-andes/michelle-ferruz-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.graceL
+{
+    background-image: url('../images/Team-alto-andes/grace-lazcano.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.graceL:hover
+{
+    background-image: url('../images/Team-alto-andes/grace-lazcano-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.franS
+{
+    background-image: url('../images/Team-alto-andes/fran-sovino.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.franS:hover
+{
+    background-image: url('../images/Team-alto-andes/fran-sovino.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.brunoS
+{
+    background-image: url('../images/Team-alto-andes/bruno-sampieri.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.brunoS:hover
+{
+    background-image: url('../images/Team-alto-andes/bruno-sampieri-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.cataL
+{
+    background-image: url('../images/Team-alto-andes/cata-luna.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.cataL:hover
+{
+    background-image: url('../images/Team-alto-andes/cata-luna-2.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

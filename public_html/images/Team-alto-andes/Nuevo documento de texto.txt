@@ -1,0 +1,779 @@
+<div id="ostaff" style="width: 100%;height: 100%;position: absolute; margin-top: 130px;">
+                    <div style="left:15%;position:absolute;top:50%;width: 75px;height: 50px;margin-top: -110px;">
+
+                        <a href="#empresa" onclick="nst('non');
+                staoff();"><div style="float: left;cursor: pointer;" class="triangulo_izq"></div></a>
+                    </div>
+                    <div id="stf" style="width: 615px; height: 540px;position: absolute;margin-top: -350px;margin-left: -307px; top: 50%;left: 50%;">
+                        <table id="tblStaff" style="width: 615px; height: 540px;" cellspacing="10" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td onclick="bio(1);" class="jaimeV" style="width: 165px; height: 160px; vertical-align: bottom; text-align: right;" onmouseover="mas('1');" onmouseout="nomas('1');">
+                                        <label id="mas1" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(2);" class="juanR" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('2');" onmouseout="nomas('2');">
+                                        <label id="mas2" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(3);" class="pabloT" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('3');" onmouseout="nomas('3');">
+                                        <label id="mas3" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(4);" class="nicoF" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('4');" onmouseout="nomas('4');">
+                                        <label id="mas4" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td onclick="bio(5);" class="claudioN" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('5');" onmouseout="nomas('5');">
+                                        <label id="mas5" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(6);" class="katR" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('6');" onmouseout="nomas('6');">
+                                        <label id="mas6" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(7);" class="miguelG" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('7');" onmouseout="nomas('7');">
+                                        <label id="mas7" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(8);" class="michelleF" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('8');" onmouseout="nomas('8');">
+                                        <label id="mas8" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td onclick="bio(9);" class="graceL" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('9');" onmouseout="nomas('9');">
+                                        <label id="mas9" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(10);" class="franS" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('10');" onmouseout="nomas('10');">
+                                        <label id="mas10" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(11);" class="brunoS" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('11');" onmouseout="nomas('11');">
+                                        <label id="mas11" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                    <td onclick="bio(12);" class="cataL" style="width: 165px; height: 160px;vertical-align: bottom; text-align: right;" onmouseover="mas('12');" onmouseout="nomas('12');">
+                                        <label id="mas12" style="font-family: kautiva_bold_italic; font-size: 39px; color: rgb(181, 209, 223); margin-left: 115px; margin-top: -20px; display: none;position: absolute;">+</label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="eq1" style="display: none;width: 100%; height: 100%;" onclick="$('#eq1').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Jaime%20Villarreal.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Jaime Villarreal Izquierdo<br/>
+                                                                                                    DIRECTOR - FUNDADOR
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq1').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació el año 82 en Santiago de Chile.
+                                                                                        Estudió Humanidades y Periodismo en la
+                                                                                        Universidad Diego Portales.
+                                                                                        <br/><br/>
+                                                                                        El 2009 se graduó como Master en Noticias y
+                                                                                        Documentales en la Universidad de Nueva York.
+                                                                                        Jaime ha estado interesado en abordar temas
+                                                                                        internacionales desde el comienzo de su
+                                                                                        carrera.
+                                                                                        <br/><br/>
+                                                                                        El 2010 a su regreso a Chile, creó Alto Andes
+                                                                                        Producciones, emprendimiento que a principios
+                                                                                        del 2012 se transformó en un grupo de empresas,
+                                                                                        donde se unió Punto Media y Piso Digital.
+                                                                                        <br/><br/>
+                                                                                        Además sin abandonar su pasión por lo audiovisual,
+                                                                                        Jaime permanece como director de In al Día para LAN
+                                                                                        y el documental Cielos de Chile.
+                                                                                        <br/>
+                                                                                        Actualmente Jaime se desempeña como director general
+                                                                                        de Alto Andes Entertainment Group, supervisando
+                                                                                        las 3 empresas del grupo.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq2" style="display: none;width: 100%; height: 100%;" onclick="$('#eq2').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Juan%20Reyes.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Juan Eduardo Reyes<br/>
+                                                                                                    PRODUCTOR GENERAL
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq2').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px; text-transform: none;">
+                                                                                        Nació en Santiago de Chile el 29 de
+                                                                                        octubre de 1982. Luego de egresar
+                                                                                        del Colegio San Esteban Diácono, entró
+                                                                                        a estudiar Bachillerato en Humanidades
+                                                                                        en la Universidad Diego Portales, estudios
+                                                                                        que después convalidaría para poder ingresar
+                                                                                        a Periodismo en la misma Universidad.
+                                                                                        <br/><br/>
+                                                                                        Entre 2005 y 2007 se desempeñó como periodista
+                                                                                        del programa radial los 11 Titulares de la Radio
+                                                                                        Universidad de Chile. Luego de casi un año donde
+                                                                                        estuvo recorriendo Australia y el sudeste asiático,
+                                                                                        regresó en 2009 a nuestro país para incorporarse al
+                                                                                        equipo de La Táctica, Agencia Comunicacional orientada
+                                                                                        a la gestión de medios y soluciones audiovisuales. En
+                                                                                        ese mismo año, ingreso al diplomado de Escritura Audiovisual
+                                                                                        que imparte la Pontifica Universidad Católica.
+                                                                                        <br/><br/>
+                                                                                        En Alto Andes Juan es el productor general de toda el área audiovisual periodística
+                                                                                        y corporativa.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq3" style="display: none;width: 100%; height: 100%;" onclick="$('#eq3').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('../images/Team-alto-andes/cata-luna-2.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Pablo Toledo Vidal<br/>
+                                                                                                    PRODUCTOR AUDIOVISUAL
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq3').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació en 1985. Comunicador Audiovisual
+                                                                                        de profesión. El año 2010 se
+                                                                                        especializó realizando el curso de Post-producción
+                                                                                        en Duoc Uc. El año 2011 se integra a la
+                                                                                        plataforma de After Effects Avanzado en Academia
+                                                                                        Mac estando certificado por Adobe.
+                                                                                        <br/>
+                                                                                        <br/>
+                                                                                        Con manejo en las nuevas tecnologías, en su
+                                                                                        carrera ha pasado por diversos medios
+                                                                                        como Televisión Nacional de Chile,
+                                                                                        Fundación Teletón y Televisión Interactiva.
+                                                                                        En este momento se encuentra en el grupo Alto Andes,
+                                                                                        encargado de desarrollar piezas audiovisuales
+                                                                                        de la más alta calidad.
+                                                                                        <br/><br/>
+                                                                                        En la actualidad entiende que hacer televisión digital e
+                                                                                        integrar nuevos sistemas audiovisuales, es un desafío que se puede
+                                                                                        abarcar de una manera distinta e innovadora.
+                                                                                        Pablo es el productor audiovisual a cargo de supervisar los proyectos periodísticos y corporativos.
+                                                                                        Entre ellos destaca Lan "In al Día" y Canal Sony.
+                                                                                        <br/><br/>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq4" style="display: none;width: 100%; height: 100%;" onclick="$('#eq4').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Nico%20Ferrada.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Nicolas Ferrada Koch<br/>
+                                                                                                    DIRECTOR CREATIVO
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq4').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Hiperquinético y soñador son las
+                                                                                        principales características de este
+                                                                                        Comunicador Audiovisual del Duoc UC,
+                                                                                        amante de las artes visuales y melómano
+                                                                                        declarado. No se queda nunca sentado y siempre
+                                                                                        busca el momento para poder agarrar la cámara y captar distintas
+                                                                                        emociones.
+                                                                                        <br/><br/>
+                                                                                        En sus años como estudiante de la carrera se desempeñó
+                                                                                        como ayudante académico en el área de post-producción
+                                                                                        y en la implementación del canal interno de su sede
+                                                                                        en San Carlos de Apoquindo.
+                                                                                        <br/>
+                                                                                        Su pasión por la dirección y la fotografía lo han
+                                                                                        llevado a crear proyectos como
+                                                                                        realizador audiovisual independiente creando making off,
+                                                                                        videoclips y cápsulas visuales.
+                                                                                        <br/><br/>
+                                                                                        En Alto Andes Nicolás está a cargo de todas las producciones publicitarias.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq5" style="display: none;width: 100%; height: 100%;" onclick="$('#eq5').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Claudio%20Nunez.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Claudio Núñez Torres<br/>
+                                                                                                    PERIODISTA
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq5').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nacido en la ciudad de Antofagasta
+                                                                                        y criado en Iquique. Es egresado de
+                                                                                        la Escuela de Periodismo de la Universidad
+                                                                                        Diego Portales.
+                                                                                        <br/><br/>
+                                                                                        Participó en el proyecto Nativos del portal Terra
+                                                                                        y unos años antes de salir de la Universidad se
+                                                                                        desempeñó como periodista para el Laboratorio Digital
+                                                                                        de la UDP.
+                                                                                        <br/>
+                                                                                        <br/>
+                                                                                        En la actualidad se desempeña como productor periodístico de
+                                                                                        Cruzados CDF.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq6" style="display: none;width: 100%; height: 100%;" onclick="$('#eq6').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Katherine%20Riveros.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Katherine Riveros<br/>
+                                                                                                    PRODUCTORA AUDIOVISUAL
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq6').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació en Santiago de Chile el 09 de mayo de 1988,
+                                                                                        egresada del Instituto Profesional Santo Tomás como
+                                                                                        Técnico en Comunicación Audiovisual Digital.
+                                                                                        <br/><br/>
+                                                                                        En sus años de experiencia como comunicadora ha
+                                                                                        desarrollado diversas labores en producción,
+                                                                                        post-producción, camarógrafo en otras, en instituciones como Teletón
+                                                                                        y productoras audiovisuales.
+                                                                                        <br/><br/>
+                                                                                        Hoy en Alto Andes, trabaja en proyectos como Desafío País y Canal Its on de Falabella.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq7" style="display: none;width: 100%; height: 100%;" onclick="$('#eq7').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Miguel%20Godoy.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Miguel Godoy<br/>
+                                                                                                    PRODUCTOR AUDIOVISUAL
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq7').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Comunicador audiovisual proveniente de la
+                                                                                        Octava Región de Chile. En los años académicos
+                                                                                        participó en distintos proyectos en cine 16 mm.
+                                                                                        Ya egresado participa en distintos proyectos de
+                                                                                        televisión en Concepción, como camarógrafo y post-productor
+                                                                                        y también en proyectos musicales.
+                                                                                        <br/><br/>
+                                                                                        Hoy se desempeña como post-productor del programa "La Liga en 10"
+                                                                                        que emite el canal CDF.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq8" style="display: none;width: 100%; height: 100%;" onclick="$('#eq8').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Michelle%20Ferruz.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Michelle Ferruz<br/>
+                                                                                                    PERIODISTA
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq8').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació el 11 de enero de 1991 en la ciudad de Rancagua,
+                                                                                        luego vivió en Viña del Mar terminando finalmente siendo
+                                                                                        una santiaguina de corazón. Actualmente cursa su quinto año
+                                                                                        de periodismo en la Universidad Alberto Hurtado. Su pasión
+                                                                                        por el periodismo deportivo la hizo encontrar caminos como
+                                                                                        colaboradora en el portal web todofutbol.cl.
+                                                                                        <br/><br/>
+                                                                                        Hoy en Alto Andes Michelle es la productora periodística del
+                                                                                        programa "La liga en 10" de CDF.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq9" style="display: none;width: 100%; height: 100%;" onclick="$('#eq9').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Grace%20Lazcano.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Grace Lazcano<br/>
+                                                                                                    PERIODISTA
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq9').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Actualmente es estudiante de periodismo
+                                                                                        en la Universidad Diego Portales. Nacida y
+                                                                                        criada en Santiago de Chile. Llega a Cruzados TV
+                                                                                        movida por su gusto por el fútbol y más importante aún,
+                                                                                        por ser hincha de Universidad Católica.
+                                                                                        <br/><br/>
+                                                                                        En la actualidad Grace es periodista del programa Cruzados del CDF.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq10" style="display: none;width: 100%; height: 100%;" onclick="$('#eq10').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Fran%20Sovino.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Francisca Sovino<br/>
+                                                                                                    PERIODISTA
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq10').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació en Santiago en noviembre de 1987. Egresó del
+                                                                                        colegio Inmaculada Concepción de Vitacura en el año
+                                                                                        2005. Ingresó a estudiar periodismo en la Universidad del
+                                                                                        Desarrollo. En el año 2010 realizó su practica profesional
+                                                                                        en la productora Eyeworks TV, colaborando en la realización
+                                                                                        del programa "Clase turista, Chileno en el mundo" emitido por TVN.
+                                                                                        <br/><br/>
+                                                                                        Se tituló en mayo del año 2011 y decidió salir a recorrer
+                                                                                        Nueva Zelanda y el sudeste asiático con el objetivo de conocer
+                                                                                        nuevas culturas y diferentes realidades.
+                                                                                        <br/>
+                                                                                        Hoy forma parte del equipo de Alto Andes como periodista del programa
+                                                                                        Desafío País.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="eq11" style="display: none;width: 100%; height: 100%;" onclick="$('#eq11').slideUp();">
+                        <div style="width: 800px; height: 500px;position: absolute;margin-top: -330px;margin-left: -400px; top: 50%;left: 50%;background: rgba(0, 0, 0, 0.7);">
+                            <table style="width: 100%; height: 100%;" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr>
+                                        <td style="vertical-align: middle;">
+                                            <div style="width: 100%; height: 400px;">
+                                                <table style="width: 100%; height: 97%;" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 380px; height: 389px; background-image: url('recursos/equipo/alt/Bruno%20Sampieri%202.jpg');">
+                                                            </td>
+                                                            <td style="width: 400px; height: 384px;border-left: 1px solid #a5a5a5;">
+                                                                <table style="width: 100%; height: 100%; background-color: #b0d0eb">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table style="width: 97%; height: 60px; margin-left: 5px;margin-right: 5px;">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="vertical-align: middle;">
+                                                                                                <label class="nomEquipo">
+                                                                                                    Bruno Sampieri<br/>
+                                                                                                    PERIODISTA
+                                                                                                </label>
+                                                                                            </td>
+                                                                                            <td style="vertical-align: top; text-align: right;">
+                                                                                                <a onclick="$('#eq11').slideUp();" class="botonOcultar">-</a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <br/>
+                                                                                <div style="width: 300px; height: 300px; margin-left: -150px; position: relative; left: 50%;">
+                                                                                    <label class="textLargos" style="font-size: 12px;text-transform: none;">
+                                                                                        Nació un 8 de marzo de 1992 en Santiago. Fue un patiperro de colegios durante su infancia, terminando su época escolar en el Pumahue de Huechuraba. El integrante más joven de esta productora se caracteriza por ser una persona inquieta y luchadora por sus sueños. Durante su corta carrera profesional, este estudiante de segundo año de Periodismo de la Universidad Diego Portales ha viajado por Chile y Latinoamérica cubriendo a través de su radio online, Frecuencia Cruzada, a la Universidad Católica
+                                                                                        <br/><br/>
+                                                                                        Hoy engrosa las filas de Alto Andes, siendo participe de los programas La Liga en 10 y Cruzados en el CDF.
+                                                                                    </label>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="pt-page pt-page-8">
+                        <h1><strong>Equipo</strong></h1>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                        <h1 style="word-spacing: 0;"><strong>Secci&oacuten en construcci&oacuten</strong></h1>
+                    </div>
+                </div>
