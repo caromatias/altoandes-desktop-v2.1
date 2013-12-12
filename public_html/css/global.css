@@ -537,36 +537,41 @@ a{
     margin: 20px 50px 50px 50px;
 }
 #contentRedes{
+    position: absolute;
     width: 800px;
     height: 250px;
     margin: 0 auto;
     margin-top: 350px;
+    padding: 0px 0px;
 }
 #logoFb{
-    background-image: url('../images/FB-flogo-Blue.png');
+    background-image: url('../images/facebook.png');
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 35px;
+    height: 35px;
     float: left;
-    margin: 20px;
+    margin: 5px;
+    background-size: 35px 35px;
 }
 #logoVimeo{
-    background-image: url('../images/vimeo_logo_blue.png');
+    background-image: url('../images/vimeo.png');
     background-repeat: no-repeat;
-    width: 355px;
-    height: 150px;
+    width: 35px;
+    height: 35px;
     float: left;
-    background-position: 0px 20px;
-    margin: 20px;
+    background-position: 0px 0px;
+    margin: 5px;
+    background-size: 35px 35px;
 }
 #logoTw{
-    background-image: url('../images/Twitter_logo_blue.png');
+    background-image: url('../images/twitter.png');
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
+    width: 35px;
+    height: 35px;
     float: left;
-    margin: 20px;
-    background-position: 0px 10px;
+    margin: 5px;
+    background-position: 0px 0px;
+    background-size: 35px 35px;
 }
 #directores{
     width: 200px;
@@ -1062,9 +1067,9 @@ img {
 }
 #etiqueta-contacto{
     font-family: helvetica, sans-serif;
-    margin-top: -60px;
-    float: right;
+    margin-top: -45px;
     margin-right: 120px;
+    float: right;
     font-size: 21px;
 }
 .flecha-arriba{
