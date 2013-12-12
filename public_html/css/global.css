@@ -539,9 +539,8 @@ a{
 #contentRedes{
     position: absolute;
     width: 800px;
-    height: 250px;
     margin: 0 auto;
-    margin-top: 350px;
+    bottom: 20px;
     padding: 0px 0px;
 }
 #logoFb{
