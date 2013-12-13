@@ -1267,12 +1267,18 @@ img {
     font-size: 24px;
 }
 .videoVisto{
+    width: 250px;
+    height: 150px;
     display: none;
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     font-size: 18px!important;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    background-image: url('../images/X.png');
 }
+
 .box_rotate {
     -webkit-transform: rotate(0deg);  /* Chrome, Safari 3.1+ */
     -moz-transform: rotate(0deg);  /* Firefox 3.5-15 */
