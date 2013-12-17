@@ -69,6 +69,7 @@ and open the template in the editor.
     padding: 0px 10px 0px 10px;
     cursor: pointer;
     line-height: 48px;
+    display: block;
 }
 #contentForm{
     width: 900px;

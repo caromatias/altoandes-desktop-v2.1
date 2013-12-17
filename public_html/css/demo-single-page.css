@@ -101,10 +101,10 @@ body {
 }
 
 .pt-page-1 {
-    background-image: url('../video/poster.jpg'), url('../images/trama-001v.png');
+/*    background-image: url('../video/poster.jpg'), url('../images/trama-001v.png');
     background-repeat: repeat;
-    background-size: 100% 100%;
-    background-position: 0px 0px;
+    background-size: 100% 106%;
+    background-position: 0px 0px;*/
 }
 
 .pt-page-2 {
@@ -128,7 +128,7 @@ body {
 .pt-page-5 {
     background-image: url('../video/posteTimelapse.jpg'), url('../images/trama-001v.png');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 115%;
     background-position: 0px 0px;
 }
 
@@ -141,6 +141,12 @@ body {
     background-image: url('../images/trama-001v.png');
     background-repeat: repeat;
     //background-size: 100% 100%;
+}
+.pt-page-8 {
+    background-image: url('../video/posteTimelapse.jpg'), url('../images/trama-001v.png');
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    background-position: 0px 0px;
 }
 
 /*No Animation Support Message Style*/

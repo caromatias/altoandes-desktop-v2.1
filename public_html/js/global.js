@@ -76,7 +76,7 @@ $(document).ready(function() {
         setTimeout(function() {
             $('.pt-page-1').css('background-image', 'url("video/posterElvis.jpg")');
             $('.pt-page-5').css('background-image', 'none');
-        }, 1000);        
+        }, 2000);        
     });
     $('#devolVideo').on('click', function(e) {
         setTimeout(function() {
@@ -206,12 +206,18 @@ $(document).ready(function() {
         $('#contentJuan').removeClass('menuHomeACT');
     });
     
-    setTimeout(function() {
-            $('.pt-page-1').css('background-image', 'none');
-        }, 1500);
+//    setTimeout(function() {
+//            $('.pt-page-1').css('background-image', 'none');
+//        }, 1500);
         
-   $('.menuPrincipal').addClass('box_rotate box_transition');     
-
+   $('.menuPrincipal').addClass('box_rotate box_transition');   
+   $('.video-background').find('video').attr('id','videoPrincipal');
+   $('.link-menu').on('click', function(e) {
+        document.getElementById('videoPrincipal').pause();
+    });
+   $('#soso').on('click', function(e) {
+        setTimeout(function(){document.getElementById('videoPrincipal').play();},1000);
+    });
 });
 function oculta(valor) {
     switch (valor) {
@@ -328,5 +334,9 @@ function pasaVideo(){
             $('.pt-page-1').css('background-image', 'url("video/posterElvis.jpg")');
             $('.pt-page-5').css('background-image', 'none');
         }, 1000);
+}
+function mataVideo(){
+    $('#reel').html('<iframe src="//player.vimeo.com/video/80894614" width="800" height="450" frameborder="0" allowfullscreen style="position: absolute; left: 50%; top: 50%; margin-left: -400px; margin-top: -225px;"></iframe>');
+    setTimeout(function(){document.getElementById('videoPrincipal').play();},1000);
 }
 
