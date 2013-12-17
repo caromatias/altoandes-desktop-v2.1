@@ -319,7 +319,7 @@ function toggle(este) {
 }
 function devolVideo(){
         setTimeout(function() {
-            $('.video-background').html('<video preload="none" poster="video/poster.jpg" autoplay="autoplay" loop="loop"><source src="video/Elvis1280_2.mp4" type="video/mp4"><source src="video/Buda_finalOK.webm" type="video/webm"><source src="video/Buda_finalOK.ogv" type="video/ogg"></video>');
+            $('.video-background').html('<video preload="none" poster="video/poster.jpg" autoplay="autoplay" loop="loop"><source src="video/Elvis1280_2.mp4" type="video/mp4"><source src="video/Elvis1280_2.webm" type="video/webm"><source src="video/Elvis1280_2.ogv" type="video/ogg"></video>');
         }, 500);
         setTimeout(function() {
             $('.pt-page-5').css('background-image', 'url("video/posteTimelapse.jpg")')
